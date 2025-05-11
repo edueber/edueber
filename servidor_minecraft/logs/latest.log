@@ -1,83 +1,36 @@
-[13:09:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:09:36] [ServerMain/INFO]: Loaded 7 recipes
-[13:09:36] [Server thread/INFO]: Starting minecraft server version 1.20
-[13:09:36] [Server thread/INFO]: Loading properties
-[13:09:36] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[13:09:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:09:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:09:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:26:11] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:26:13] [ServerMain/INFO]: Loaded 7 recipes
+[16:26:14] [Server thread/INFO]: Starting minecraft server version 1.20
+[16:26:14] [Server thread/INFO]: Loading properties
+[16:26:14] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[16:26:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:26:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:26:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:09:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[13:09:37] [Server thread/INFO]: Default game type: SURVIVAL
-[13:09:37] [Server thread/INFO]: Generating keypair
-[13:09:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:09:37] [Server thread/INFO]: Using epoll channel type
-[13:09:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:09:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[13:09:37] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'UltimateClans' for files 'plugins/UltimateClans-6.13.3.jar' and 'plugins/UltimateClans-6.16.4.jar' in 'plugins'
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loading 1 libraries... please wait
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[13:09:38] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library /workspaces/edueber/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[13:09:40] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:09:44] [Server thread/WARN]: Legacy plugin BCommons v0.3.0 does not specify an api-version.
-[13:09:44] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loading 2 libraries... please wait
-[13:09:44] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/edueber/servidor_minecraft/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
-[13:09:44] [Server thread/INFO]: [SpigotLibraryLoader] [NexEngine] Loaded library /workspaces/edueber/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.11/fastutil-8.5.11.jar
-[13:09:45] [Server thread/WARN]: Legacy plugin yMito v1.1.4 does not specify an api-version.
-[13:09:45] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:45] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:45] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:45] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Thread-1/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Potential Malware was detected.
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Error #006
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] Please scan your server - https://github.com/OpticFusion1/MCAntiMalware
-[13:09:47] [Server thread/INFO]: [STDOUT] [yLWdfNxk2AtbDD5] [directleaks.net] If you cannot resolve this message Haizivs on site - https://directleaks.net/conversations/add
-[13:09:47] [Server thread/WARN]: java.lang.reflect.InvocationTargetException
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[13:09:47] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-[13:09:47] [Server thread/WARN]: 	at StreakRewards 2.2.7.jar//7oS8jDVrecttPN05TWUL5aksvNwfl4GvoCQUVC.lj15odBKKEZ40JvNioix(7oS8jDVrecttPN05TWUL5aksvNwfl4GvoCQUVC.java)
-[13:09:47] [Server thread/WARN]: 	at StreakRewards 2.2.7.jar//net.gcnt.streakrewards.StreakRewards.<init>(StreakRewards.java:40)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[13:09:47] [Server thread/WARN]: 	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
-[13:09:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347)
-[13:09:47] [Server thread/WARN]: 	at java.base/java.lang.Class.newInstance(Class.java:645)
-[13:09:47] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:88)
-[13:09:47] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123)
-[13:09:47] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
-[13:09:47] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116)
-[13:09:47] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
-[13:09:47] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'ajLeaderboards-2.8.0.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
+[16:26:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:26:14] [Server thread/INFO]: Default game type: SURVIVAL
+[16:26:14] [Server thread/INFO]: Generating keypair
+[16:26:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:26:15] [Server thread/INFO]: Using epoll channel type
+[16:26:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:26:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:26:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Essentials' for files 'plugins/EssentialsX-2.21.0-dev+68-993d7ed.jar' and 'plugins/EssentialsX-2.21.1-dev+15-fe43017.jar' in 'plugins'
+[16:26:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.11 (1).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.3
+	at org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:380) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:119) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[16:26:15] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldguard-bukkit-7.0.9-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
@@ -88,257 +41,92 @@ org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'PlayerKits2.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'SkyblockPlus-1.0.3.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Quests-3.15-b636bef.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'VoxelAFK.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'zAuctionHouseV3-3.1.4.1.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AxVaults-1.2.0.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.ThreadDeath
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.jar:git-Paper-17]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:430) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.ThreadDeath
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
-[13:09:47] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-4.9.2.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.119
-[13:09:47] [Server thread/ERROR]: [LuckPerms] Error initializing plugin 'LuckPerms-Bukkit-5.4.119.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:09:47] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.9.1-SNAPSHOT-666;b6d691d
-[13:09:47] [Server thread/ERROR]: [FastAsyncWorldEdit] Error initializing plugin 'FastAsyncWorldEdit-Bukkit-2.9.1-SNAPSHOT-666.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[13:09:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+68-993d7ed
-[13:09:47] [Server thread/ERROR]: [Essentials] Error initializing plugin 'EssentialsX-2.21.0-dev+68-993d7ed.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [ShopGUIPlus] Loading server plugin ShopGUIPlus v1.90.0
-[13:09:47] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[13:09:47] [Server thread/INFO]: [SuperiorSkyblock2] Loading server plugin SuperiorSkyblock2 v2023.3
-[13:09:47] [Server thread/ERROR]: [SuperiorSkyblock2] Error initializing plugin 'SuperiorSkyblock2-2023.3.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.12.2
-[13:09:47] [Server thread/ERROR]: [NBTAPI] Error initializing plugin 'item-nbt-api-plugin-2.12.2.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
-[13:09:47] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.5.2
-[13:09:47] [Server thread/INFO]: [BCommons] Loading server plugin BCommons v0.3.0
-[13:09:47] [Server thread/ERROR]: [BCommons] Error initializing plugin 'commons-0.3.0.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [RivalHarvesterHoes] Loading server plugin RivalHarvesterHoes v2.0.0
-[13:09:47] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.6
-[13:09:47] [Server thread/ERROR]: [DecentHolograms] Error initializing plugin 'DecentHolograms-2.8.6.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [NexEngine] Loading server plugin NexEngine v2.2.12
-[13:09:47] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[13:09:47] [Server thread/ERROR]: [Multiverse-Core] Error initializing plugin 'Multiverse-Core-4.3.1.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[13:09:47] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3156)
-[13:09:47] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.2.3
-[13:09:47] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
-[13:09:47] [Server thread/ERROR]: [DeluxeMenus] Error initializing plugin 'DeluxeMenus-1.14.0-Release.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
-[13:09:47] [Server thread/INFO]: [TimedRewards] Loading server plugin TimedRewards v1.1.20
-[13:09:47] [Server thread/ERROR]: [TimedRewards] Error initializing plugin 'TimedRewards-1.1.20.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [CLV] Loading server plugin CyberLevels v0.5.9
-[13:09:47] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.34
-[13:09:47] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v5.0.0
-[13:09:47] [Server thread/INFO]: [NextGens] Loading server plugin NextGens v1.0.9
-[13:09:47] [Server thread/ERROR]: [NextGens] Error initializing plugin 'NextGens-1.0.9.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/ERROR]: [TAB] Error initializing plugin 'TAB v4.1.2.jar' in folder 'plugins' (Is it up to date?)
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer v2023.12
-[13:09:47] [Server thread/INFO]: [SupremeChat] Loading server plugin SupremeChat v1.3.2
-[13:09:47] [Server thread/INFO]: [yMito] Loading server plugin yMito v1.1.4
-[13:09:47] [Server thread/INFO]: [BlockRegen] Loading server plugin BlockRegen v3.10.5
-[13:09:47] [Server thread/ERROR]: Main thread terminated by WatchDog due to hard crash
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:949) ~[?:?]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:926) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
-[13:09:47] [Thread-1/INFO]: Stopping server
-[13:09:47] [Thread-1/INFO]: Saving players
-[13:09:47] [Thread-1/WARN]: Asynchronous Save Players! Blocking thread until it returns 
-java.lang.IllegalStateException: null
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:362) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1210) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1206) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:954) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:806) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:898) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.20.jar:git-Paper-17]
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.CommandException
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.jar:git-Paper-17]
+	... 9 more
+[16:26:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.119
+[16:26:16] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+68-993d7ed
+[16:26:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:26:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.119
+[16:26:16] [Server thread/INFO]:         __    
+[16:26:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.119
+[16:26:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:26:16] [Server thread/INFO]: 
+[16:26:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:26:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:26:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:26:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:26:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1078ms)
+[16:26:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:26:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:26:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:26:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:26:17] [Server thread/INFO]: Preparing level "world"
+[16:26:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:26:18] [Server thread/INFO]: Time elapsed: 338 ms
+[16:26:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:26:18] [Server thread/INFO]: Time elapsed: 87 ms
+[16:26:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:26:18] [Server thread/INFO]: Time elapsed: 75 ms
+[16:26:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[16:26:18] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:26:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:26:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:26:19] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[16:26:19] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[16:26:19] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[16:26:19] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[16:26:19] [Server thread/INFO]: [Essentials] Using locale en
+[16:26:19] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:26:19] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:26:19] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[16:26:19] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[16:26:19] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:26:20] [Server thread/INFO]: Running delayed init tasks
+[16:26:20] [Server thread/INFO]: Done (5.746s)! For help, type "help"
+[16:26:20] [Server thread/INFO]: Timings Reset
+[16:26:20] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:26:20] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 138 EssentialsX dev build(s) out of date!
+[16:26:20] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[16:37:42] [Server thread/INFO]: Stopping server
+[16:37:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+68-993d7ed
+[16:37:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.119
+[16:37:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:37:42] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:37:42] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:37:42] [Server thread/INFO]: Saving players
+[16:37:42] [Server thread/INFO]: Saving worlds
+[16:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 90 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[16:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:37:42] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[16:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:37:42] [Server thread/INFO]: Flushing Chunk IO
+[16:37:42] [Server thread/INFO]: Closing Thread Pool
+[16:37:42] [Server thread/INFO]: Closing Server

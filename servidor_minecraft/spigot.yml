@@ -49,12 +49,12 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
-  send-namespaced: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
+  log: true
+  tab-complete: 0
+  send-namespaced: true
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -167,8 +167,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    verbose: false
-  faweregentempworld:
     verbose: false
 players:
   disable-saving: false
