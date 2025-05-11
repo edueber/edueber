@@ -18,20 +18,18 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 settings:
-  bungeecord: false
-  save-user-cache-on-stop-only: false
-  sample-count: 12
   player-shuffle: 0
-  user-cache-size: 1000
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
+  save-user-cache-on-stop-only: false
+  sample-count: 12
+  bungeecord: false
+  user-cache-size: 1000
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
   netty-threads: 4
   attribute:
-    maxAbsorption:
-      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -41,22 +39,22 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
   debug: false
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 commands:
-  tab-complete: 0
-  send-namespaced: true
-  log: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
+  log: true
+  tab-complete: 0
+  send-namespaced: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -64,8 +62,8 @@ world-settings:
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 0.5
-      exp: -1.0
+      item: 2.5
+      exp: 3.0
     mob-spawn-range: 8
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
@@ -76,7 +74,6 @@ world-settings:
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
     hanging-tick-frequency: 100
-    unload-frozen-chunks: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -103,7 +100,7 @@ world-settings:
     entity-activation-range:
       animals: 32
       monsters: 32
-      raiders: 64
+      raiders: 48
       misc: 16
       water: 16
       villagers: 32
@@ -127,10 +124,10 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
       display: 128
       other: 64
     ticks-per:
@@ -155,8 +152,6 @@ world-settings:
     seed-fossil: 14357921
     seed-portal: 34222645
     seed-ancientcity: 20083232
-    seed-trailruins: 83469867
-    seed-trialchambers: 94251327
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
