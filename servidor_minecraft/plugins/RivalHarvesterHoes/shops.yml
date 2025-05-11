@@ -1,0 +1,202 @@
+# Information About the Main Menu
+#  main:
+#    options:
+#      size: 45
+#      title: "&8Example Menu"
+#      default: true - If its the first menu that opens when you type /essence shop
+#    items:
+#      '1': // Can be anything but cant repeat
+#        material: 'STONE' // Material of the item shown in GUI
+#        amount: 1 // Amount of Item in the GUI
+#        name: "&bExample Name" // Name of the item in the GUI
+#        lore:          //Lore of the item in the GUI
+#          - "&7Example Lore"
+#        slot: 5       // What Slot will the item Appear in
+#        page: examplepage // When the item is clicked it will open the page defined Mostly used for Main Menu
+pages:
+  main:
+    options:
+      size: 45
+      title: '&8ServerName » Essence Shop'
+      default: true
+      filler:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+    items:
+      '13':
+        material: MAGMA_CREAM
+        amount: 1
+        name: '&6&l[!] &e&lESSENCE'
+        lore:
+          - '&7You have &6❋&e{essence} essence'
+          - '&7You can get Essence by harvesting'
+          - '&7crops and use Essence to purchase items'
+          - '&7in the &e/essence shop'
+        slot: 13
+      '20':
+        material: MOB_SPAWNER
+        amount: 1
+        name: '&3&l<!> &b&lSpawners Shop'
+        lore:
+          - ''
+          - ' &3● &bCategory: &fSpawners'
+          - ' &3● &bContains: &f1 Item'
+          - ''
+        slot: 20
+        page: spawners
+      '21':
+        material: TRIPWIRE_HOOK
+        amount: 1
+        name: '&3&l<!> &b&lCrate Keys Shop'
+        lore:
+          - ''
+          - ' &3● &bCategory: &fCrate Keys'
+          - ' &3● &bContains: &f4 Items'
+          - ''
+        slot: 22
+        page: keys
+      '22':
+        material: ENDER_CHEST
+        amount: 1
+        name: '&3&l<!> &b&lExclusive Shop'
+        lore:
+          - ''
+          - ' &3● &bCategory: &fExclusive'
+          - ' &3● &bContains: &f1 Item'
+          - ''
+        slot: 24
+        page: monthlycrates
+  spawners:
+    options:
+      size: 27
+      title: '&8ServerName » Spawner Shop'
+      filler:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+    items:
+      '1':
+        material: MOB_SPAWNER
+        amount: 1
+        name: '&3&l[!] &b&lSilverfish Spawner'
+        lore:
+          - ''
+          - ' &3&l● &bPrice: &f400k Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - ws give {player} spawner Silverfish 1
+        price: 400000
+        slot: 13
+      '18':
+        material: BARRIER
+        amount: 1
+        name: '&c&lGo Back to Categories'
+        lore:
+          - '&7&o(( Click here to go back ))'
+        slot: 22
+        page: main
+  keys:
+    options:
+      size: 27
+      title: '&8ServerName » Crate Key Shop'
+      filler:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+    items:
+      '11':
+        material: LIME_DYE
+        amount: 1
+        name: '&2&l[!] &a&lVote Crate Key'
+        lore:
+          - ''
+          - ' &2&l● &aPrice: &f300k Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - crate give p Vote 1 {player}
+        price: 300000
+        slot: 11
+      '12':
+        material: LIGHT_BLUE_DYE
+        amount: 1
+        name: '&3&l[!] &b&lRare Crate Key'
+        lore:
+          - ''
+          - ' &3&l● &bPrice: &f450k Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - crate give p Rare 1 {player}
+        price: 450000
+        slot: 12
+      '14':
+        material: PINK_DYE
+        amount: 1
+        name: '&5&l[!] &d&lUltra Crate Key'
+        lore:
+          - ''
+          - ' &5&l● &dPrice: &f650k Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - crate give p Ultra 1 {player}
+        price: 650000
+        slot: 14
+      '15':
+        material: ORANGE_DYE
+        amount: 1
+        name: '&e&l[!] &6&lLegendary Crate Key'
+        lore:
+          - ''
+          - ' &6&l● &ePrice: &f950k Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - crate give p Legendary 1 {player}
+        price: 950000
+        slot: 15
+      '18':
+        material: BARRIER
+        amount: 1
+        name: '&c&lGo Back to Categories'
+        lore:
+          - '&7&o(( Click here to go back ))'
+        slot: 22
+        page: main
+  monthlycrates:
+    options:
+      size: 27
+      title: '&8ServerName » Exclusive Essence Shop'
+      filler:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+    items:
+      '1':
+        material: ENDER_CHEST
+        amount: 1
+        name: '&6&l[!] &e&lMonthly Crate'
+        lore:
+          - ''
+          - ' &6&l● &ePrice: &f15M Essence'
+          - ''
+          - '&7&o(( Click here to purchase ))'
+        commands:
+          use: true
+          commands:
+            - ac give {player} Monthly 1
+        price: 15000000
+        slot: 13
+      '18':
+        material: BARRIER
+        amount: 1
+        name: '&c&lGo Back to Categories'
+        lore:
+          - '&7&o(( Click here to go back ))'
+        slot: 22
+        page: main

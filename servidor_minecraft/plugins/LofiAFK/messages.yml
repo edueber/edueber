@@ -1,0 +1,34 @@
+prefix: '&#FF1B6B&lL&#E03884&lo&#C1559C&lf&#A273B5&li&#8390CE&lA&#64ADE6&lF&#45CAFF&lK'
+unknown-command: '&cUnknown command. Run &l/lofiafk &chelp to see the full list of
+  commands.'
+player-command: Not available for consoles.
+no-permission: '&cYou don''''t have permissions to run this command.'
+player-not-found: '&cUnknown player &l%player%&c.'
+non-numeric-input: '&cYou must enter a numeric value.'
+invalid-numeric-input-zero: '&cValue must be higher than 0.'
+help-command-info: Displays this list.
+help-command-usage: /lofiafk help
+help-text-header: '&e&lCommands'
+help-text-command-format: '&b%usage% &e- &9%info%'
+no-available-commands: '&cYou don''t have access to any commands.'
+reload-command-info: Reloads the plugin's configuration file.
+reload-command-usage: /lofiafk reload
+reload-command-success: '&aConfiguration successfully reloaded.'
+status-command-info: Shows if you are in an AFK zone.
+status-command-usage: /lofiafk status
+in-zone: '&aYou are in an AFK zone.'
+not-in-zone: '&cYou are not in an AFK zone.'
+stats-command-info: Shows how much you've spent in each AFK zone.
+stats-command-usage: /lofiafk stats
+no-stats: '&cYou don''t have AFK zone stats yet.'
+stat-format: '&9%zone% &b- &e%time%'
+stats-command-success: |-
+  &bAfk Stats
+  %stats%
+leaderboard-command-info: Opens the leaderboard menu.
+leaderboard-command-usage: /lofiafk leaderboard
+enter-afk-zone: |2+
+
+            %prefix%
+  &7&oYou're now in an AFK zone
+

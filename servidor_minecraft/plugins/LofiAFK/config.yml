@@ -1,0 +1,31 @@
+afk-on-join: true
+jet-prison-mines-hook: true
+action-bar:
+  enabled: true
+  message: <bold><gradient:#FF1B6B:#45CAFF>LofiAFK</gradient></bold> <gray><italic>>>
+    You're now in an AFK zone</italic></gray>
+title:
+  enabled: true
+  title: '%prefix%'
+  subtitle: '&7&oYou''re now in an AFK zone'
+afk-zones:
+  AfkZone1:
+    frequency: 300
+    rewards:
+      diamond1:
+        probability: 50.0
+        type: command
+        commands:
+        - give %player_name% diamond 1
+      command:
+        probability: 50.0
+        type: command
+        commands:
+        - give %player_name% diamond 1
+  AfkZone2:
+    frequency: 300
+    rewards:
+      mine:
+        probability: 100.0
+        type: prisonmine
+        mine: Donator

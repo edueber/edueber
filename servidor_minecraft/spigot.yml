@@ -168,6 +168,8 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
+  faweregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12

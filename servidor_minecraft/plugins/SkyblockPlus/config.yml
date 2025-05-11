@@ -1,0 +1,173 @@
+island:
+  status:
+    error: '&cError'
+    # ########################################
+    level-0: '&8[ &7□ □ □ □ □ &8]'
+    level-1: '&8[ &#60EC47■ &7□ □ □ □ &8]'
+    level-2: '&8[ &#60EC47■ ■ &7□ □ □ &8]'
+    level-3: '&8[ &#60EC47■ ■ ■ &7□ □ &8]'
+    level-4: '&8[ &#60EC47■ ■ ■ ■ &7□ &8]'
+    level-5: '&8[ &#60EC47■ ■ ■ ■ ■ &8]'
+  biomes:
+    Plains:
+      material: OAK_SAPLING
+      color: '&a'
+    Jungle:
+      material: JUNGLE_SAPLING
+      color: '&#346a1a'
+    Taiga:
+      material: BIRCH_SAPLING
+      color: '&#c4b27a'
+    Desert:
+      material: CACTUS
+      color: '&#60922f'
+    Nether-Wastes:
+      material: NETHER_WART
+      color: '&#b63842'
+    Swamp:
+      material: VINE
+      color: '&#2f7710'
+    Wooded-Badlands:
+      material: DEAD_BUSH
+      color: '&#a87331'
+    Mushroom-Fields:
+      material: RED_MUSHROOM_BLOCK
+      color: '&#c32826'
+    Snowy-Plains:
+      material: SPRUCE_SAPLING
+      color: '&#f7f7f7'
+  upgrades:
+    # only change values
+    hopper:
+      placeholder: '%superior_island_hoppers_limit%'
+      stats:
+        level-0: '2' # default
+        # ###### Level 1 #######
+        level-1: '4'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '6'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '8'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '10'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '12'
+        price-5: '50000' # money
+    crop:
+      placeholder: '%superior_island_crops_multiplier%'
+      stats:
+        level-0: '1.0'
+        # ###### Level 1 #######
+        level-1: '1.2'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '1.4'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '1.6'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '1.8'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '2.0'
+        price-5: '50000' # money
+    drop:
+      placeholder: '%superior_island_drops_multiplier%'
+      stats:
+        level-0: '1.0'
+        # ###### Level 1 #######
+        level-1: '1.2'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '1.4'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '1.6'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '1.8'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '2.0'
+        price-5: '50000' # money
+    size:
+      placeholder: '%superior_island_radius%'
+      stats:
+        level-0: '25'
+        # ###### Level 1 #######
+        level-1: '40'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '60'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '80'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '100'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '120'
+        price-5: '50000' # money
+    spawner:
+      placeholder: '%superior_island_spawners_multiplier%'
+      stats:
+        level-0: '1.0'
+        # ###### Level 1 #######
+        level-1: '1.2'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '1.4'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '1.6'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '1.8'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '2.0'
+        price-5: '50000' # money
+    member:
+      placeholder: '%superior_island_team_limit%'
+      stats:
+        level-0: '2'
+        # ###### Level 1 #######
+        level-1: '4'
+        price-1: '10000' # money
+        # ###### Level 2 #######
+        level-2: '6'
+        price-2: '20000' # money
+        # ###### Level 3 #######
+        level-3: '8'
+        price-3: '30000' # money
+        # ###### Level 4 #######
+        level-4: '10'
+        price-4: '40000' # money
+        # ###### Level 5 #######
+        level-5: '12'
+        price-5: '50000' # money
+    generator:
+      placeholder: '%superior_island_upgrade_generator-rates%'
+      stats:
+        level-0: '1'
+        # ###### Level 1 #######
+        level-1: '2'
+        price-1: '50000' # money
+        # ###### Level 2 #######
+        level-2: '3'
+        price-2: '100000' # money
+        # ###### Level 3 #######
+        level-3: '4'
+        price-3: '200000' # money
+        # ###### Level 4 #######
+        level-4: '5'
+        price-4: '300000' # money
+        # ###### Level 5 #######
+        level-5: '6'
+        price-5: '500000' # money

@@ -1,0 +1,20 @@
+success:
+  sound: BLOCK_NOTE_BLOCK_PLING
+  enable: true
+  volume: 0.6
+  pitch: 1.6
+error:
+  sound: BLOCK_NOTE_BLOCK_BASS
+  enable: true
+  volume: 0.6
+  pitch: 0.6
+mine-reward:
+  sound: ENTITY_ALLAY_ITEM_TAKEN
+  enable: true
+  volume: 1.0
+  pitch: 1.0
+leaderboard-menu-open:
+  sound: UI_BUTTON_CLICK
+  enable: true
+  volume: 0.6
+  pitch: 1.1

@@ -1,0 +1,12 @@
+leaderboard:
+  size: 54
+  title: AFK Leaderboard
+  border: GRAY_STAINED_GLASS_PANE
+  filler: GRAY_STAINED_GLASS_PANE
+  entry-item:
+    lore:
+    - '&e%balance%'
+    name: '&6%position% %player%'
+  no-entry-item:
+    head-id: '7822'
+    name: '&cEmpty'

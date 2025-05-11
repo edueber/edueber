@@ -1,0 +1,63 @@
+debug: false
+updater:
+  enable: true
+  include_snapshots: true
+
+storage:
+  # Type could either be SQLite or MySQL
+  # SQLite is used as default storage system instead of YAML files.
+  # SQLite does not require any additional setup steps.
+  type: SQLite
+  mysql:
+    host: localhost
+    port: 3306
+    database: streakrewards
+    username: myuser
+    password: mypass
+
+menu_deleted: '&cYou successfully deleted the rewards menu ''%menu%'' with all its
+  player data. This is irreversible!'
+menu_created: '&aYou successfully created a new rewards menu called ''%menu%''!'
+menu_already_exists: '&cThere already is a menu with that name.'
+day_unlocked: '&aYou unlocked %player%''s next day for the %menu% menu.'
+menu_not_found: '&cThat menu could not be found.'
+already_claimed: '&cYou have already claimed this reward'
+come_back_tomorrow: '&cCome back tomorrow to claim this reward'
+cant_claim_yet: '&cYou can''t claim this reward yet'
+streak: '&aYour %menu% streak is: &b%streak%'
+streak_other: '&b%player%&a''s %menu% current streak is: &b%streak%'
+day: '&aYour %menu% streak is: &b%day%'
+day_other: '&b%player%&a''s %menu% current day is: &b%day%'
+invalid_player: '&cThat player is not online'
+reload: '&aSuccessfully reloaded the plugin'
+must_specify_integer: '&cYou must specify a valid integer'
+set_streak: '&aYou set &b%player%&a''s &b%menu% &astreak to &b%streak%'
+boost: '&aYou boosted the menu &b%menu% &afor &b%player% &awith &b%boost% &aextra
+  days'
+reset: '&aYou reset &b%player%&a''s streak for the &b%menu%&a menu.'
+npc_created: '&aYou successfully created a StreakRewards NPC. Use Citizens to customize
+  and remove it.'
+must_be_longer_online: '&cYou must be at least %min_time% minutes online in order
+  to claim this reward. You have to wait another %time_left% to claim this.'
+online_timer_reset_msg_enable: true
+online_timer_reset_msg: '&aYour online timer has reset'
+claimed_all: '&aYou quick-claimed a total of &b%claimed% &arewards!'
+
+status_placeholder_claimable: '&a&lYou can claim your next reward!'
+status_placeholder_cannotclaim: '&cNext reward in %hours%h %minutes%m %seconds%s'
+no_permission: '&cYou are not allowed to claim daily rewards.'
+
+enable_streak_reset_msg: true
+streak_reset: '&cYou weren''t able to claim all daily rewards in a row, so your streak
+  will be reset.'
+
+enable_join_reminder: true
+# wait this amount of seconds before reminding player that they have something to open
+join_message_delay: 3
+join_reminder:
+- '       &7&m-------------------------------'
+- '          &a&lYou can claim new rewards!'
+- '            &7You have &b%claimable% &7rewards pending.'
+- ''
+- '               &dUse /daily to claim them.'
+- '       &7&m-------------------------------'
